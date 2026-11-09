@@ -1,0 +1,166 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #030515;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .site-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #080808;
+            height: 100px;
+        }
+     
+
+        .logo {
+            margin: 0;
+            color: #f2f2f4;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .nav-links a {
+            color: #f5f1f1;
+            font-weight: 500;
+            padding: 8px 16px;
+            border: 1px solid #0c0909;
+            border-radius: 4px;
+            background: #040101;
+            text-decoration: none;
+        }
+
+        .nav-links a.nav-cla {
+            background-color: #0956ae;
+            color: #f5f1f1;
+        }
+
+        .nav-links a.nav-cla:hover {
+            box-shadow: #0956ae 0px 0px 0px 3px;
+            background-color: #0956ae;
+            color: #f8fafc;
+        }
+
+        .nav-links a:hover {
+            background-color: #7f1010;
+            color: #f5f1f1;
+        }
+        .hero {
+            background-color: #13136a;
+            padding: 40px;
+            text-align: center;
+            padding: 0px 100px 0px 100px;
+            ;
+
+            .launchbusiness {
+                font-size: 100px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            .affordable {
+                font-size: 100px;
+                margin-bottom: 20px;
+                font-weight: bold;
+                color: cyan;
+            }
+
+            .wehelp {
+                font-size: 35px;
+                margin-bottom: 20px;
+            }
+
+            .viewpackages {
+                font-size: 20px;
+                padding: 20px 30px;
+                background-color: #0956ae;
+                color: #f5f1f1;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            .viewpackages:hover {
+                box-shadow: #0956ae 0px 0px 0px 3px;
+                background-color: #0956ae;
+            }
+        }
+        
+        .whoweare {
+            font-size: 40px;
+            font-weight: bold;
+
+            background-color: #1f1f9a;
+            ;
+        }
+
+        .content {
+            font-size: 25px;
+            margin-bottom: 0px 0px 0px 0px;
+            background-color: #1f1f9a;
+            ;
+        }
+
+        .content2 {
+            font-size: 25px;
+            background-color: #1f1f9a;
+            ;
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+            align-items: left;
+
+        }
+
+        .whowe-are {
+            background-color: #10182c;
+            display: flex;
+            padding: 30px;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .wwr-color {
+            color: white;
+        }
+
+        .cont-card {
+            display: flex;
+            gap: 100px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .box-1 {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .wwr-p {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .c-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }  
+        img{
+            height: 450px;
+        }    
